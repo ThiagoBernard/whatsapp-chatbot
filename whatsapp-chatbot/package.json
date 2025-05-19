@@ -1,0 +1,27 @@
+{
+  "name": "whatsapp-chatbot",
+  "version": "1.0.0",
+  "description": "Chatbot para WhatsApp com funcionalidades de atendimento para loja",
+  "main": "src/chatbot.js",
+  "scripts": {
+    "start": "node src/chatbot.js",
+    "dev": "nodemon src/chatbot.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "chatbot",
+    "atendimento"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.22.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
